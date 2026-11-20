@@ -1,0 +1,63 @@
+# Dependencies
+/node_modules/
+
+# Next.js
+/.next/
+/out/
+/build/
+*.tsbuildinfo
+
+# Test and tool output
+/coverage/
+/test-results/
+/playwright-report/
+/blob-report/
+/.turbo/
+/.vercel/
+/.eslintcache
+
+# Local environment and secrets
+.env*
+!.env.example
+!.env.*.example
+*.local
+/key.properties
+/android/key.properties
+*.jks
+*.keystore
+
+# Android / Gradle generated files
+/android/.gradle/
+/android/.kotlin/
+/android/build/
+/android/app/build/
+/android/local.properties
+/android/.idea/
+/android/capacitor-cordova-android-plugins/
+/android/app/src/main/assets/public/
+/android/app/src/main/assets/capacitor.config.json
+/android/app/src/main/assets/capacitor.plugins.json
+/android/app/src/main/res/xml/config.xml
+*.apk
+*.aab
+*.aar
+*.ap_
+*.dex
+*.class
+*.hprof
+
+# Logs and operating-system files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE workspace files
+/.idea/
+/.vscode/*
+!/.vscode/extensions.json
+!/.vscode/settings.json

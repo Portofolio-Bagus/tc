@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SI-TC</string>
+    <string name="title_activity_main">SI-TC</string>
+    <string name="package_name">com.sitechno.app</string>
+    <string name="custom_url_scheme">com.sitechno.app</string>
+</resources>
